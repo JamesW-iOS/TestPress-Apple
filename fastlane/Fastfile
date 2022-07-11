@@ -19,7 +19,7 @@ platform :ios do
 
   lane :test_without_building do
     # TODO: This should be computed, not hardcoded
-    xctestrun_path = File.join(DERIVED_DATA_PATH, 'Build/Products/TestPress_TestPress_iphonesimulator15.5-x86_64.xctestrun')
+    xctestrun_path = File.join(DERIVED_DATA_PATH, 'Build/Products/TestPress_TestPress_iphonesimulator15.5.xctestrun')
 
     run_tests(
       project: 'TestPress.xcodeproj',
