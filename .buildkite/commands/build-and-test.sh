@@ -5,7 +5,7 @@ echo "--- :rubygems: Fixing Ruby Setup"
 gem install bundler
 
 echo "--- :rubygems: Setting up Gems"
-install_gems
+bundle install
 
 echo "--- Verify BUILDKITE_ANALYTICS_TOKEN"
 if [ -z "$BUILDKITE_ANALYTICS_TOKEN" ]; then
